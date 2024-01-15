@@ -1,5 +1,5 @@
 import React from 'react'
-import myPics from "../../assets/Chukwuka-img.jpg"
+import myPics from "../../assets/Chukwuka.jpg"
 import Html from '../../assets/html.png'
 import Css from '../../assets/Css.png'
 import Javascript from '../../assets/Javascript.png'

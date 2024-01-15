@@ -1,4 +1,4 @@
-import myPics from "../../assets/Chukwuka-img.jpg"
+import myPics from "../../assets/Chukwuka.jpg"
 import iconButton from "../../assets/iconButton.svg"
 import Button from "../Button"
 
