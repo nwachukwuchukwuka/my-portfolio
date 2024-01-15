@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Sign from '../../assets/Sign.png'
+import Sign from '../../assets/sign.png'
 import Button from '../Button'
 const AboutCard = () => {
     return (
