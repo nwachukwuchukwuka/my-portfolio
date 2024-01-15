@@ -1,0 +1,5 @@
+.gradient-color {
+    background: rgb(24,24,24);
+    background: linear-gradient(140deg, rgba(24,24,24,1) 54%, rgba(18,18,18,1) 100%);
+    border-radius: 20px;
+}
