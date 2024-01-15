@@ -1,14 +1,14 @@
 import React from 'react'
 import myPics from "../../assets/chukwuka.jpg"
 import Html from '../../assets/html.png'
-import Css from '../../assets/Css.png'
-import Javascript from '../../assets/Javascript.png'
-import ReactImg from '../../assets/React.png'
-import TypeScript from '../../assets/Typescript.png'
-import Redux from '../../assets/Redux.png'
-import Git from '../../assets/Git.png'
-import Node from '../../assets/Node.png'
-import Mu5 from '../../assets/Mu5.png'
+import Css from '../../assets/css.png'
+import Javascript from '../../assets/javascript.png'
+import ReactImg from '../../assets/react.png'
+import TypeScript from '../../assets/typescript.png'
+import Redux from '../../assets/redux.png'
+import Git from '../../assets/git.png'
+import Node from '../../assets/node.png'
+import Mu5 from '../../assets/mu5.png'
 
 
 import Star from '../../assets/star-2.png'
