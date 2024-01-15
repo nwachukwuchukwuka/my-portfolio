@@ -9,12 +9,12 @@ const Profiles = () => {
       <div className="flex bg-[#1f1f1f] h-[120px] justify-center items-center rounded-3xl border border-1 border-[#2e2e2e]">
 
 
-        <div className='p-[20px] bg-[#212221] rounded-[100%]  border border-1 border-[#2e2e2e] mr-[15px] hover:bg-[gray] cursor-pointer'>
+        <div className='p-[20px] bg-[#212221] rounded-[100%]  border border-1 border-[#2e2e2e] mr-[15px] opacity-80 hover:opacity-40  transition-all duration-300 cursor-pointer'>
           <i class="fa-brands fa-x-twitter fa-2x"></i>
 
         </div>
 
-        <div className='p-[20px] bg-[#212221] rounded-[100%]  border border-1 border-[#2e2e2e] hover:bg-[gray] cursor-pointer'>
+        <div className='p-[20px] bg-[#212221] rounded-[100%]  border border-1 border-[#2e2e2e] opacity-80 hover:opacity-40 transition-all duration-300 cursor-pointer'>
           <i class="fa-brands fa-whatsapp fa-2x"></i>
         </div>
 

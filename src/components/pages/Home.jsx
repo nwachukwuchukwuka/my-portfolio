@@ -13,7 +13,7 @@ import AboutCard from '../ui-cards/AboutCard'
 const Home = () => {
     return (
         <>
-            <div className='flex flex-col md:flex-row mb-[15px] mt-[50px] items-center md:items-start'>
+            <div className='flex flex-col md:flex-row mb-[15px] mt-[20px] md:mt-[50px] items-center md:items-start'>
                 <Hero />
                 <div className=' ml-0 md:ml-[20px] '>
                     <Floating />

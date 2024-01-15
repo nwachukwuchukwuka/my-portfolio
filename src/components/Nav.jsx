@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#0f0f0f] p-4 pb-[40px] ">
+    <nav className="bg-[#0f0f0f] p-4 md:pb-[40px] pb-[20px] ">
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <Link href="/" className="text-white text-[35px] font-bold">

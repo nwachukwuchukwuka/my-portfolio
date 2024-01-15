@@ -75,7 +75,7 @@ const AboutPage = () => {
 
   return (
     <div>
-      <div className='flex items-center flex-col md:flex-row'>
+      <div className='flex items-center flex-col md:flex-row mt-[20px] md:mt-0'>
         <div className='md:mr-[40px]'>
           <img className='w-[350px] md:w-[350px] h-[350px] md:h-[400px] pb-[0]  rounded-[50px]' src={myPics} alt="myPics" />
         </div>
@@ -103,10 +103,10 @@ const AboutPage = () => {
       {/* second section */}
 
       <div className='flex flex-col md:flex-row mt-[20px] md:mt-[30px] justify-between items-center'>
-        <div className="bg-[#1f1f1f] w-[350px] md:w-[600px] h-[670px] md:h-[350px] p-[20px] md:mr-[20px] rounded-3xl  ">
+        <div className="bg-[#1f1f1f] w-[350px] md:w-[600px] h-[450px] md:h-[350px] p-[20px] md:mr-[20px] rounded-3xl  ">
           <h1 className='text-[27px] ml-[30px]'> Skills & Technologies</h1>
 
-          <div className='flex flex-wrap'>
+          <div className='flex flex-wrap justify-evenly md:justify-start'>
             {Skils.map((skill) => (
               <div>
                 <SkillCard skill={skill} />
