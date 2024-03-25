@@ -66,9 +66,9 @@ const ProjectPage = () => {
     return (
         <div>
             <div className='flex justify-center items-center mb-[15px]'>
-                <img src={Star} alt="star" />
-                <p className='text-[70px] font-semibold'>ALL PROJECTS</p>
-                <img src={Star} alt="star" />
+                <img src={Star} alt="star" className='hidden md:block'/>
+                <p className='text-[45px] md:text-[70px] font-semibold'>ALL PROJECTS</p>
+                <img src={Star} alt="star" className='hidden md:block'/>
             </div>
             <div className='flex justify-center mb-[70px] flex-wrap'>
 
