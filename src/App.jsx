@@ -5,6 +5,7 @@ import AboutPage from './components/pages/AboutPage'
 import { Route, Routes } from 'react-router-dom'
 import ProjectPage from './components/pages/ProjectPage'
 import Contact from './components/pages/ContactPage'
+import './App.css'
 
 
 const App = () => {

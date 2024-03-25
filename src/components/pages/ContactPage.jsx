@@ -44,7 +44,7 @@ const Contact = () => {
                         <div>
                             <h1 className='text-[#7A7A7A]'>CONTACT ME </h1>
                             <p className='font-semibold text-[18px] md:text-lg text-gray-300'>08070623479</p>
-                            <p className='font-semibold text-[18px] md:text-lg text-gray-300'>08070623479</p>
+                            <p className='font-semibold text-[18px] md:text-lg text-gray-300'>07038936818</p>
                         </div>
 
                     </div>
@@ -55,9 +55,9 @@ const Contact = () => {
                         </div>
                         <div>
                             <h1 className='text-[#7A7A7A]'>LOCATION  </h1>
-                            <p className='font-semibold text-gray-300 text-[18px] md:text-lg'>22 Baker Street, Texas
-                                United States
-                                W1U 3BW</p>
+                            <p className='font-semibold text-gray-300 text-[18px] md:text-lg'>Ehime Mbano,
+                                Ezeoke Nsu,
+                                Imo state</p>
                         </div>
 
                     </div>
@@ -71,9 +71,7 @@ const Contact = () => {
                             <div className='p-[25px] bg-[#1f1f1f] rounded-full mr-[20px]'>
                                 <i class="fa-brands fa-linkedin-in fa-2x"></i>
                             </div>
-                            <div className='p-[25px] bg-[#1f1f1f] rounded-full'>
-                                <i class="fa-brands fa-linkedin-in fa-2x"></i>
-                            </div>
+                        
                         </div>
                     </div>
 

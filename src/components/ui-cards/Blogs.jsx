@@ -10,7 +10,7 @@ const Blogs = () => {
             <div className='flex justify-between items-end pl-[10px]'>
                 <div>
                     <p className='text-[#7A7A7A] mt-[10px] text-[14px]'>BLOG</p>
-                    <p className='font-semibold text-[23px]'> My posts</p>
+                    <p className='font-semibold text-[23px]'>Coming soon</p>
                 </div>
                <Button />
             </div>

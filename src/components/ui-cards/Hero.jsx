@@ -12,7 +12,7 @@ const Hero = () => {
                 <p className="text-[14px] text-[#7A7A7A;]">A SOFTWARE ENGINEER</p>
 
                 <h1 className="text-[30px] font-semibold"> Chukwuka  <br /> Nwachukwu </h1>
-                <p className="text-[#7A7A7A]">I am a web developer based in san fransisco</p>
+                <p className="text-[#7A7A7A]">I am a web developer based in Nigeria</p>
                 <div className='flex justify-end mt-[10px] md:mt-o'>
                     <div className="flex items-center justify-center border text-white p-4 rounded-md cursor-pointer hover:opacity-50 transition-all duration-300">
                         Download

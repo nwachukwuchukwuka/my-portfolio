@@ -9,6 +9,8 @@ import Redux from '../../assets/redux.png'
 import Git from '../../assets/git.png'
 import Node from '../../assets/node.png'
 import Mu5 from '../../assets/mu5.png'
+import figma from '../../assets/figma.png'
+import python from '../../assets/python.png'
 
 
 import Star from '../../assets/star-2.png'
@@ -62,13 +64,14 @@ const AboutPage = () => {
       text: 'MU5'
     },
     {
-      image: Mu5,
-      text: 'MU5'
+      image: figma,
+      text: 'FIGMA'
     },
     {
-      image: Mu5,
-      text: 'MU5'
+      image: python,
+      text: 'PYTHON'
     },
+ 
 
 
   ]
@@ -82,7 +85,7 @@ const AboutPage = () => {
 
         <div>
           <div className='flex  my-5 md:my-0  items-center justify-center md:justify-start md:ml-2'>
-            <img src={Star} alt="star" className='w-[30px] md:w-[50px]'/>
+            <img src={Star} alt="star" className='w-[30px] md:w-[50px]' />
             <h1 className=' text-[25px] md:text-[79px] font-semibold px-3 md:px-3'>SELF SUMMARY</h1>
             <img src={Star} alt="star" className='w-[30px] md:w-[50px]' />
           </div>
@@ -91,7 +94,11 @@ const AboutPage = () => {
             <div className=' mt-[40px] md:mt-[80px] pl-[15px]'>
               <div>
                 <p className='text-[35px] font-semibold'>Nwachukwu Chukwuka</p>
-                <p className='text-[18px] text-gray-300'>I am a San francisco-based product designer with a focus on web design, illustration, a visual development. I have a diverse range of experience having worked across various fields and industries.</p>
+                <p className='text-[18px] text-gray-300'> I am a web developer who creates websites, including coding the layout,
+                  features, and functionality, to ensure an optimal user experience
+                  and performance. I work with various programming languages and
+                  frameworks to bring a client's vision to life on
+                  the web.</p>
               </div>
 
             </div>
@@ -120,11 +127,7 @@ const AboutPage = () => {
 
         <div className="bg-[#1f1f1f] w-[350px] md:w-[510px] h-[350px] p-[15px] md:mr-[20px] rounded-3xl mt-[20px] md:mt-0">
           <h1 className='text-[27px] ml-[15px]'>Experiences</h1>
-          <div className='text-[#7A7A7A] ml-[15px] font-semibold text-[17px] mt-[10px]'>
-            <h1 className=''>2020 - 2021</h1>
-            <p className='text-[white] text-[20px]'>Frontend Developer</p>
-            <p>Freelancer</p>
-          </div>
+        
 
           <div className='text-[#7A7A7A] ml-[15px] font-semibold text-[17px] mt-[40px]'>
             <h1 className=''>2021 - 2024</h1>
@@ -132,6 +135,11 @@ const AboutPage = () => {
             <p>Cresponet Technology Company</p>
           </div>
 
+          <div className='text-[#7A7A7A] ml-[15px] font-semibold text-[17px] mt-[10px]'>
+            <h1 className=''>2020 - 2023</h1>
+            <p className='text-[white] text-[20px]'>Frontend Developer</p>
+            <p>Sumysan real estate company</p>
+          </div>
 
 
         </div>

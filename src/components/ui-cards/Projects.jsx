@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
-import LearnHub from '../../assets/learnhub-img.jpg'
+import projectImg from '../../assets/portfolio-project.jpg'
 import Button from '../Button'
 const Projects = () => {
     return (
         <Link to='/project-page'>
             <div className="bg-[#1f1f1f] w-[350px] md:w-[270px] md:h-[230px] p-[15px] mr-0 md:mr-[20px] rounded-3xl ">
                 <div>
-                    <img className="rounded-2xl" src={LearnHub} alt="LearnHub" />
+                    <img className="rounded-2xl h-[120px] w-[100%]" src={projectImg} alt="projectImg" />
                 </div>
                 <div className='flex justify-between items-end pl-[10px]'>
                     <div>
