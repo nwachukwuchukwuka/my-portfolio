@@ -8,6 +8,7 @@ import worldmap from '../../assets/worldmap.png'
 import noteapp from '../../assets/noteapp.png'
 import gymapp from '../../assets/gymapp.png'
 import Star from '../../assets/star-2.png'
+import edumon from '../../assets/edumon.png'
 
 
 const Projects = [
@@ -30,6 +31,13 @@ const Projects = [
         text2: 'hi',
         live: 'https://chuks-gym.netlify.app/',
         github: ''
+    },
+    {
+        image: edumon,
+        text1: 'EDUMON',
+        text2: 'hi',
+        live: 'https://edumon-website-db9742.netlify.app/',
+        github: 'https://github.com/nwachukwuchukwuka/education-tech-website'
     },
     {
         image: Bookmark,
@@ -66,9 +74,9 @@ const ProjectPage = () => {
     return (
         <div>
             <div className='flex justify-center items-center mb-[15px]'>
-                <img src={Star} alt="star" className='hidden md:block'/>
+                <img src={Star} alt="star" className='hidden md:block' />
                 <p className='text-[45px] md:text-[70px] font-semibold'>ALL PROJECTS</p>
-                <img src={Star} alt="star" className='hidden md:block'/>
+                <img src={Star} alt="star" className='hidden md:block' />
             </div>
             <div className='flex justify-center mb-[70px] flex-wrap'>
 
