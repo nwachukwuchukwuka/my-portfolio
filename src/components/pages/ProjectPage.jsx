@@ -9,6 +9,8 @@ import noteapp from '../../assets/noteapp.png'
 import gymapp from '../../assets/gymapp.png'
 import Star from '../../assets/star-2.png'
 import edumon from '../../assets/edumon.png'
+import wolmat from '../../assets/wolmat.png'
+import metrobank from '../../assets/metrobank.png'
 
 
 const Projects = [
@@ -45,6 +47,14 @@ const Projects = [
         text2: 'hi',
         live: 'https://bookmark-app-abecvc.netlify.app/',
         github: 'https://github.com/nwachukwuchukwuka/bookmark-app'
+    },
+  
+    {
+        image: metrobank,
+        text1: 'METROBANK',
+        text2: 'hi',
+        live: 'https://metro-bank-316e81.netlify.app/',
+        github: 'https://github.com/nwachukwuchukwuka/metrobank'
     },
     {
         image: youtube,
