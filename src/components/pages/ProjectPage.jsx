@@ -9,7 +9,7 @@ import noteapp from '../../assets/noteapp.png'
 import gymapp from '../../assets/gymapp.png'
 import Star from '../../assets/star-2.png'
 import edumon from '../../assets/edumon.png'
-import wolmat from '../../assets/wolmat.png'
+import financeApp from '../../assets/financeApp.png'
 import metrobank from '../../assets/metrobank.png'
 
 
@@ -26,6 +26,12 @@ const Projects = [
         text1: 'LEARHUB',
         live: 'https://learn-hub-fa026b.netlify.app/',
         github: 'https://github.com/nwachukwuchukwuka/Learnhub'
+    },
+    {
+        image: financeApp,
+        text1: 'FINANCE MANAGEMENT APP',
+        live: 'https://chuks-finance-app.netlify.app/',
+        github: 'https://github.com/nwachukwuchukwuka/chuks-fin-app'
     },
     {
         image: gymapp,
